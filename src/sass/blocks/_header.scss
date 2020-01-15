@@ -1,0 +1,28 @@
+.header{
+    padding:19px 0;
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        display: flex;
+    }
+    &__addr{
+        a{
+            color: #242424;
+            text-decoration: none;
+            &:hover{
+                border-bottom: 1px solid #242424;
+            }
+        }
+        margin-left: 11px;
+        color: #242424;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+        span{
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+}
