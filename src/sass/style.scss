@@ -3,6 +3,10 @@
 @import "base/fonts";
 @import "base/mixins";
 
+
+@import "libs/owl.carousel.min";
+@import "libs/_owl.theme.default.min";
+@import "libs/animate";
 *{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -11,6 +15,10 @@
 .container{
     margin: 0 auto;
     max-width: 1140px;
-}
+} 
 
-@import "blocks/header"
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/carousel";
+@import "blocks/button"; 
+@import "blocks/ansver"; 

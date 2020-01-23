@@ -1,0 +1,45 @@
+.answers{
+    min-height: 896px;
+    padding: 80px 0;
+    &__box-items{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title{
+        text-align: center;
+    }
+    &__down{
+        display: block;
+        margin: 50px auto 33px;
+    }
+    &__item{
+        width: 360px;
+        min-height: 255px;
+        border: 1px solid #ececec;
+        text-align: center;
+        background-image: url("../img/bg-item1.png");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        p{
+            margin-top: -15px;
+            color: $main-color2;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 26px;
+        }
+        img{
+            width: 192px;
+        }
+    }
+    &__box-items-prengi{
+        margin-top: 37px;
+        P{
+            font-weight: 700;
+        }
+    }
+    &__item-prengi{
+        background-image: url("../img/bg-item2.png");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+}

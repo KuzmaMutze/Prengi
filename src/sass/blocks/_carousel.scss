@@ -1,0 +1,68 @@
+.carousel{
+    position: relative;
+    &__text{
+        float: left;
+    }
+    .title{
+        margin-top: 133px;
+        width: 548px;
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+    .subtitle{
+        margin-top: 20px; 
+        width: 528px;
+        color: #ffffff;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 300;
+        span{
+            font-weight: 400;
+        }
+    }
+    &__img{
+        float: right;
+        margin-top: 27px;
+    }
+    
+    .owl-nav{
+        position: absolute;
+        bottom: 60px;
+        button.owl-prev{
+            background: url("https://sun7-7.userapi.com/c857416/v857416404/d4e18/5ORQ-gDeRzE.jpg");
+            background-size: cover;
+            width: 100px;
+            height: 100px;
+          }
+        button.owl-next{
+            background: url("../../icons/icon1.svg");
+            background-size: cover;
+            width: 100px;
+            height: 100px;
+          }
+    }
+    .owl-dots{
+        width: 148px;
+        height: 11px;
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        button{
+            outline: none;
+        }
+        .owl-dot{
+            span{
+                background: none;
+                border: 1px solid #fff;
+                margin: 5px 3px;
+                width: 11px;
+                height: 11px;
+            }
+        }
+    }
+
+} 
+

@@ -1,0 +1,20 @@
+.button{
+    border:none;
+    width: 241px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.07);
+    background-color: #00c2f0;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.2s all;
+    // animation 
+    &:hover{
+        background-color: #00b2df;
+    }
+    &_mt{
+        margin-top: 39px;
+    }
+}
