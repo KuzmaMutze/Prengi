@@ -3,10 +3,11 @@
 @import "base/fonts";
 @import "base/mixins";
 
-
+// libs
 @import "libs/owl.carousel.min";
 @import "libs/_owl.theme.default.min";
 @import "libs/animate";
+// /libs
 *{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -16,9 +17,12 @@
     margin: 0 auto;
     max-width: 1140px;
 } 
-
+// blocks
 @import "blocks/header";
 @import "blocks/promo";
 @import "blocks/carousel";
 @import "blocks/button"; 
 @import "blocks/ansver"; 
+
+@import "blocks/decision"
+// /blocks

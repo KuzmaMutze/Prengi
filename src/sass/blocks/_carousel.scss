@@ -28,23 +28,34 @@
     }
     
     .owl-nav{
+        margin: 0;
         position: absolute;
-        bottom: 60px;
+        bottom: 18px;
+        left: 50%;
+        transform: translateX(-50%);
         button.owl-prev{
-            background: url("https://sun7-7.userapi.com/c857416/v857416404/d4e18/5ORQ-gDeRzE.jpg");
-            background-size: cover;
-            width: 100px;
-            height: 100px;
+            margin: 0 50px;
+            background: url("../icons/left.svg") no-repeat;
+            background-size: 6px 11px;
+            background-position: center right;
+            width: 56px;
+            height: 51px;
+            cursor: pointer;
+            outline: none;
           }
         button.owl-next{
-            background: url("../../icons/icon1.svg");
-            background-size: cover;
-            width: 100px;
-            height: 100px;
+            margin: 0 50px;
+            background: url("../icons/right.svg") no-repeat;
+            background-size: 6px 11px;
+            background-position: center left;
+            width: 56px;
+            height: 51px;
+            cursor: pointer;
+            outline: none;
           }
     }
     .owl-dots{
-        width: 148px;
+        width: 85px;
         height: 11px;
         position: absolute;
         bottom: 50px;
