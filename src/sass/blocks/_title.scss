@@ -1,0 +1,13 @@
+.title {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.2;
+    text-align: center;
+    &_white{
+        color: #ffffff;
+    }
+    &_mb{
+        margin-bottom: 44px;
+    }
+  }

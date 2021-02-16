@@ -1,0 +1,13 @@
+.begin{
+    padding:80px 0;
+    min-height: 690px;
+    img, button{
+        display: block;
+        margin: 0 auto;
+    }
+    &__title{
+        margin-top: 74px;
+        margin-bottom: 30px;
+    }
+
+}

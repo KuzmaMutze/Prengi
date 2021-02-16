@@ -1,0 +1,52 @@
+.options{
+    min-height: 580px;
+    color: $main-color;
+    padding: 80px 0 180px 0;
+    background: url("../img/bg-options.jpg") center center/cover no-repeat;
+    &__item-box{
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+    }
+    &__item{
+        position: relative;
+        width: 167px;
+        height: 167px;
+        background-color: rgba($color: #00c2f0, $alpha: 0.3);
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.44;
+        letter-spacing: normal;
+        &-text{
+            padding: 30px 0 0 0;
+            width: 550px;
+            position: absolute;
+            h3{
+                font-size: 30px;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 300;
+            }
+        }
+        &-text-one{
+            right: 0;
+            padding-right: 39px;
+        }
+        &-one{
+            margin-right: 41.5px;
+            text-align: right;
+        }
+        &-text-two{
+            padding-left: 39px;
+        }
+        &-two{
+            margin-left: 41.5px;
+            &-text{
+                right: 0;
+            }
+        }
+    }
+}

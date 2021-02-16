@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    $(".owl-carousel").owlCarousel({
+    const headerSlider = $('.owl-carousel');
+    headerSlider.owlCarousel({
         loop:true,
         nav: true,
         navText : ["",""],
@@ -10,10 +11,10 @@ $(document).ready(function(){
         smartSpeed:1050,
         margin:1000
     });
-    $(".decision__carousel").owlCarousel({
-        navText: [
-            '<span class="arrow-owl arrow-left"></span>',
-            '<span class="arrow-owl arrow-right"></span>'
-        ]
-    });
+
+    $('ul.decision__tabs').on('click', 'li:not(.decision__tab_active)', function() {
+        $(this)
+          .addClass('decision__tab_active').siblings().removeClass('decision__tab_active')
+          .closest('div.decision__content').find('div.decision__carousel').removeClass('decision__carousel_active owl-carousel_active').eq($(this).index()).addClass('decision__carousel_active owl-carousel_active');
+      });
 });
